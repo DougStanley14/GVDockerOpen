@@ -1,0 +1,13 @@
+version: '3'
+services:
+  msvc1:
+    container_name: msvc1
+    image: msvc1
+    build:
+      context: ./
+      dockerfile: ./msvc1/Dockerfile
+    ports:
+      - "5001:5001"
+
+
+
